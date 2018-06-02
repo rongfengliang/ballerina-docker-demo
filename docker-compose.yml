@@ -1,0 +1,7 @@
+version: "3"
+services:
+  http:
+    build: .
+    image: myhttp
+    ports:
+    - "9099:9090"
